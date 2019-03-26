@@ -1,16 +1,26 @@
-USTH ICT 2019 Distributed Systems
-=====================================
+# USTH ICT 2019 Distributed Systems Group
 
-*Groups* are expected to:
+* Nguyen Ngoc Chien
+* Cao Phuong Linh
+* Dinh Thuy Hien
+* Vuong Bao Son
+* Nguyen Hieu Thao
 
-* Fork this repository to your github account
-* Update student names and IDs to this README file
-* Push your commits regularly, with proper commit messages
-* Use pull request for collaborations!
+# Project directory
 
-Group Info
-=======================
+See `rpcshell` for source code of [multiple clients] remote shell using RPC.
 
-* Name 1 (ID1)
-* Name 2 (ID2)
+## Run
 
+First, start the server:
+
+```sh
+cd rpcshell
+python2 server.py
+```
+
+Then, on another terminal:
+
+```sh
+python2 client.py
+```
